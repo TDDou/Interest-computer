@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<image src="/image/lixi.png" style="width: 750rpx; height: 435rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+<view class="box">
+  <view class="title">利息计算机</view>
+  <view>
+    <input placeholder="请输入本金" type="number" bindblur="moneyNum"></input>
+    <input placeholder="请输入利率" type="number" bindblur="lilvNum"></input>
+  </view>
+  
+  <button  type="primary" bindtap="calc">总金额</button>
+</view>
+<view class="box1">
+  <view>五年后总金额为：{{sum}}</view>
+</view>
+<view class="title">冯晓蕾电科19-1-05</view>
